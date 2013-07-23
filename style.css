@@ -1,0 +1,193 @@
+/* Palette color codes */
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0066CC;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #0066CC;
+}
+body {
+	background-color: #CCCCCC;
+}
+.style1 {font-weight: bold}
+
+/* section menu with drop down */
+.main_menu
+{
+    height:30px;
+    line-height:30px;
+    color:#FFF;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin:17px;
+    width:75%;
+}
+.main_menu ul
+{
+    padding:0px;
+    margin:0;
+    list-style:none;
+}
+.main_menu ul li
+{
+    padding:0;
+    margin:0;
+    border:1px solid #6997D3;
+    float:left;
+    background:#4282D3;
+
+}
+.main_menu ul li a
+{
+    color:#000;
+    display:block;
+    text-decoration:none;
+    padding:0 25px;
+}
+.main_menu ul li a:hover
+{
+    background:#05326D;
+    color:#FFF;
+}
+.main_menu ul li ul
+{
+     display: none;
+     width: auto;
+     position:absolute;
+     top:30px;
+     padding:0px;
+     margin:0px;
+}
+.main_menu ul li:hover ul
+{
+     display: block;
+     position: absolute;
+     margin: 0;
+     padding: 0;
+}
+.main_menu ul li:hover li
+{
+    float: none;
+    list-style:none;
+    margin:0px;
+}
+.main_menu ul li:hover li
+{
+    background:#4282D3;
+    border-top:1px solid #6997D3;
+}
+.main_menu ul li:hover li a
+{
+    color: #fff;
+    padding:0 20px;
+    display:block;
+    width:170px;
+}
+.main_menu ul li li a:hover
+{
+    color:#FFF;
+}
+/*navigation menu */
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+	padding: 15px 0px 15px 0px;}
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+/*search box */	
+	#search {
+	 float: right;
+    margin: 5px 25px 0px;
+
+}
+
+#search input[type="text"] {
+    background: url(images/search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+	
+	
+	/* placeholder images */
+	.placeholder {
+    background: #ccc;
+    border: 1px solid blue;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+	.placeholder-image {
+    background: #ccc;
+    border: 1px solid blue;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+	background: url("images/media-image.jpg") repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+}
+.placeholder span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+/* tabs */
+div.simpleTabs { margin-left: 60px;
+    padding: 10px;
+    width: 835px;}
+ul.simpleTabsNavigation { margin:0 10px; padding:0; text-align:left; }
+ul.simpleTabsNavigation li { list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation li a { border:1px solid #E0E0E0; padding:3px 6px; background:#F0F0F0; font-size:14px; text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif; }
+ul.simpleTabsNavigation li a:hover { background-color:#F6F6F6; }
+ul.simpleTabsNavigation li a.current { background:#fff; color:#222; border-bottom:1px solid #fff; }
+div.simpleTabsContent { border:1px solid #E0E0E0; padding:5px 15px 35px; margin-top:3px; display:none; }
+div.simpleTabsContent.currentTab { display:block; }
+
+/* 2 columns */
+.contentColumn { width: 400px; float: left;  margin-right: 20px;
+    margin-left: 20px;}
+#container-column { width: 900px; margin-left:50px; }
